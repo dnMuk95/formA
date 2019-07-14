@@ -1,0 +1,61 @@
+.
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta name="author" content="Mukta danu">
+  <meta charset="utf-8">
+  <meta name="description" content="Form applicant">
+  <title>Applicant Information</title>
+</head>
+
+<body bgcolor="#CCFF66">
+  <form action="mailto:muktadanu1995@gmail.com" method="post" enctype="text/plain">
+    <fieldset align="center">
+    <legend><h3 style="color:red" align="center">PERSONAL DETAILS</h3></legend>
+    Name:
+    <input type="text" name="Name:" value=""/><br><br>
+    Password:
+    <input type="password" name="Password" value=""/><br><br>
+    Email id:
+    <input type="email" name="Email" value=""/><br><br>
+    Gender:
+    <input type="radio" name="Gender" value="Male">Male</input>
+    <input type="radio" name="Gender" value="Female">Female</input><br><br>
+    Contact:
+    <input type="number" name="Contact" value=""></input>
+    <h3 align="center" style="color:red">EDUCATION QUALIFICATION</h3>
+    Degree:
+    <select name="Degree">
+      <option selected>-- Select degree --</option>
+      <option name="B.com">B.com</option>
+      <option name="B.sc">B.sc</option>
+      <option name="B.A">B.A</option>
+      <option name="B.tech">B.tech</option>
+      <option name="B.CA">B.CA</option>
+    </select><br><br>
+    Engineering:
+      <select name="Engineering">
+        <option selected>--Choose Engineering--</option>
+        <option name="Computers">Computers</option>
+        <option name="Electrical">Electrical</option>
+        <option name="Mechanical">Mechanical</option>
+        <option name="Metallurgical">Metallurgical</option>
+        <option name="Civil">Civil</option>
+        <option name="Non-science">Non-science</option>
+      </select><br><br>
+    Hobbies:
+    <input type="checkbox" name="Hobbies" value="Playing">Playing</input>
+    <input type="checkbox" name="Hobbies" value="Singing">Singing</input>
+    <input type="checkbox" name="Hobbies" value="Dancing">Dancing</input>
+    <input type="checkbox" name="Hobbies" value="Internet Surfing">Internet Surfing</input>
+    <h3 style="color:red">Address</h3>
+    <textarea name="Address" value="" rows="5" cols="35"></textarea><br><br>
+    Attach Resume:
+    <input type="file" name="" value=""><br><br>
+    <input type="image" src="A:\web development\html test drive\send.png">
+    </fieldset>
+   </form>
+</body>
+
+</html>
